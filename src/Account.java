@@ -35,11 +35,6 @@ public class Account implements Operações{
 
     }
 
-    @Override
-    public void gerarListaClientes() {
-
-    }
-
     protected void imprimirInfos(){
         System.out.println(String.format("Nome: %s", this.cliente.getNome()));
         System.out.println(String.format("Agencia: %d", this.agencia));

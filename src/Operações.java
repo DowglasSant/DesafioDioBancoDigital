@@ -8,6 +8,4 @@ public interface Operações{
 
     void imprimirExtratos();
 
-    void gerarListaClientes();
-
 }
